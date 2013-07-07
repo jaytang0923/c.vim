@@ -78,7 +78,7 @@ if	s:MSWIN
 		"
 		" SYSTEM WIDE INSTALLATION
 		let g:C_Installation				= 'system'
-		let s:plugin_dir						= $VIM.'/vimfiles'
+		let s:plugin_dir						= $VIM.'/vimfiles/bundle/c.vim'
 		let s:C_GlobalTemplateDir		= s:plugin_dir.'/c-support/templates'
 		let s:C_GlobalTemplateFile  = s:C_GlobalTemplateDir.'/Templates'
 		let s:C_LocalTemplateFile		= $HOME.'/vimfiles/c-support/templates/Templates'
